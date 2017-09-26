@@ -54,6 +54,10 @@
     return val === null
     ? ''
       : typeof val === 'object'
+        /**
+         * JSON.stringify除第一个参数外，还可以接收两个可选参数，一个replacer函数或者数组，一个space数字或字符串
+         * replacer函数具体用法见 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify
+         */
     ? JSON.stringify(val, null, 2)
         : String(val)
   }
