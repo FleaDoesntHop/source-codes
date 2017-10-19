@@ -8,6 +8,7 @@
   },
   "author": "",
   "license": "ISC",
+<<<<<<< HEAD
   "devDependencies": {
     "autoprefixer": "^7.1.4",
     "babel-core": "^6.26.0",
@@ -29,5 +30,9 @@
     "express": "^4.16.2",
     "jquery": "^2.1.4",
     "lodash": "^4.17.4"
+=======
+  "dependencies": {
+    "vue": "^2.4.4"
+>>>>>>> 61ce1b80b41cf6e2dc03f11e1d9b65c06ee24275
   }
 }
